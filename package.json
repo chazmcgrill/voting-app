@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/chazmcgrill/voting-app/issues"
   },
-  "homepage": "https://github.com/chazmcgrill/voting-app#readme"
+  "homepage": "https://github.com/chazmcgrill/voting-app#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.0.7"
+  }
 }

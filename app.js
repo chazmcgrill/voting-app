@@ -1,0 +1,13 @@
+var express = require('express');
+var app = express();
+
+// Retrieve
+var MongoClient = require('mongodb').MongoClient;
+
+// Connect to the db
+MongoClient.connect("mongodb://localhost:27017/exampleDb", function (err, db) {
+  if (!err) {
+    console.log("We are connected");
+  }
+  db.collection('test', function (err, collection) { });
+});
