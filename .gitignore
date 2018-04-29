@@ -29,3 +29,6 @@ Temporary Items
 design
 node_modules
 
+# env variables
+.env
+

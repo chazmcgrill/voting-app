@@ -1,9 +1,12 @@
 const express = require('express');
 const mongoose = require('mongoose');
+
+require('dotenv').config();
+
 const app = express();
 
 // Retrieve
-const db = 'mongodb://localhost:27017/testdb';
+const db = process.env.DATABASE_URI;
 
 // Connect to the db
 mongoose.connect(db)
